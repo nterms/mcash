@@ -1,0 +1,40 @@
+{
+    "name": "mterms/mcash",
+    "description": "Mobitel (Sri Lanka) mCash IPG PHP Library",
+    "keywords": ["mcash", "payments", "billing"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/mterms/mcash/issues",
+        "source": "https://github.com/mterms/mcash"
+    },
+    "authors": [
+        {
+            "name": "Saranga Abeykoon",
+            "email": "amisaranga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "~5.0",
+        "squizlabs/php_codesniffer": "*",
+        "vlucas/phpdotenv": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nterms\\Mcash\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nterms\\Mcash\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
